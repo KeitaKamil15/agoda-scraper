@@ -1,0 +1,16 @@
+[
+    {
+        "hotel_name": "Modern Resort",
+        "hotel_price": 20.0,
+        "hotel_rating": "3",
+        "booking_url": "https://www.agoda.com/modern-resort/hotel/all/cox-s-bazar-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&tspTypes=8&los=1&searchrequestid=3309fdb7-176c-4536-8aaa-17db6507df93",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/478435648.jpg?k=f49d6fd99bd000ff94664e41a584ad66654fb1b6d2bda1aedaf8e642b1c9ca37&s=450x450"
+    },
+    {
+        "hotel_name": "Prime Park Hotel",
+        "hotel_price": 27.0,
+        "hotel_rating": "3",
+        "booking_url": "https://www.agoda.com/prime-park-hotel_4/hotel/cox-s-bazar-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=3309fdb7-176c-4536-8aaa-17db6507df93",
+        "image_url": "https://pix8.agoda.net/property/19901245/755825898/511735b24731f380d9698b213714d461.jpeg?ce=0&s=450x450"
+    }
+]

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Results for {{ city }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h1 class="text-2xl font-bold">Search Results for {{ city }}</h1>
+                <div class="flex space-x-4">
+                    <a href="/bookmarks" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition duration-300">
+                        <i class="fas fa-bookmark mr-2"></i>My Bookmarks
+                    </a>
+                    <a href="/auth/logout" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition duration-300">Logout</a>
+                </div>
+            </div>
+            {% if search_results %}
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {% for hotel in search_results %}
+                <div class="bg-white border rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105 relative">
+                    <!-- Hotel Image -->
+                    <div class="relative">
+                        <img 
+                            src="{{ hotel.booking.image if hotel.booking else hotel.agoda.image }}" 
+                            alt="{{ hotel.name }}" 
+                            class="w-full h-48 object-cover"
+                        >
+                        <!-- Star Rating -->
+                        <div class="absolute top-2 right-2 bg-white bg-opacity-80 p-2 rounded">
+                            <div class="flex items-center">
+                                {% for _ in range(hotel.star_rating) %}
+                                <i class="fas fa-star text-yellow-500 mr-1"></i>
+                                {% endfor %}
+                                {% for _ in range(5 - hotel.star_rating) %}
+                                <i class="far fa-star text-gray-300 mr-1"></i>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        
+                        <!-- Bookmark Button -->
+                        <button 
+                            onclick="bookmarkHotel(this)"
+                            class="bookmark-btn absolute top-2 left-2 bg-white bg-opacity-80 p-2 rounded-full hover:bg-opacity-100 transition duration-300"
+                            data-hotel-name="{{ hotel.name }}"
+                            data-hotel-location="{{ city }}"
+                            data-hotel-price="{{ hotel.booking.price if hotel.best_platform == 'booking' else hotel.agoda.price }}"
+                            data-hotel-rating="{{ hotel.star_rating }}"
+                            data-hotel-image-url="{{ hotel.booking.image if hotel.booking else hotel.agoda.image }}"
+                            data-hotel-booking-url="{{ hotel.booking.url if hotel.best_platform == 'booking' else hotel.agoda.url }}"
+                        >
+                            <i class="fas fa-bookmark text-gray-400 hover:text-blue-500"></i>
+                        </button>
+                    </div>
+                    <!-- Hotel Details -->
+                    <div class="p-4">
+                        <h2 class="text-lg font-bold mb-2 truncate">{{ hotel.name }}</h2>
+                        
+                        <!-- Pricing Section -->
+                        <div class="mb-4 border-b pb-4">
+                            <h3 class="text-gray-600 mb-2">Compare Prices:</h3>
+                            {% if hotel.booking %}
+                            <div class="flex justify-between items-center mb-2 {% if hotel.best_platform == 'booking' %}bg-green-50 p-2 rounded{% endif %}">
+                                <span class="flex items-center">
+                                    <img src="https://cf.bstatic.com/static/img/favicon.ico" alt="Booking.com" class="w-4 h-4 mr-2">
+                                    <span>Booking.com:</span>
+                                </span>
+                                <span class="font-bold {% if hotel.best_platform == 'booking' %}text-green-600{% else %}text-gray-600{% endif %}">
+                                    ৳{{ "{:,.0f}".format(hotel.booking.price) }}
+                                    {% if hotel.best_platform == 'booking' %}<span class="ml-1 text-xs bg-green-500 text-white px-2 py-1 rounded">BEST DEAL</span>{% endif %}
+                                </span>
+                            </div>
+                            {% endif %}
+                            
+                            {% if hotel.agoda %}
+                            <div class="flex justify-between items-center {% if hotel.best_platform == 'agoda' %}bg-green-50 p-2 rounded{% endif %}">
+                                <span class="flex items-center">
+                                    <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1473943042/buua2irvnvxvefyjr1co.png" alt="Agoda" class="w-4 h-4 mr-2">
+                                    <span>Agoda:</span>
+                                </span>
+                                <span class="font-bold {% if hotel.best_platform == 'agoda' %}text-green-600{% else %}text-gray-600{% endif %}">
+                                    ৳{{ "{:,.0f}".format(hotel.agoda.price) }}
+                                    {% if hotel.best_platform == 'agoda' %}<span class="ml-1 text-xs bg-green-500 text-white px-2 py-1 rounded">BEST DEAL</span>{% endif %}
+                                </span>
+                            </div>
+                            {% endif %}
+                            
+                            {% if hotel.booking and hotel.agoda %}
+                            <div class="mt-2 text-sm text-gray-500">
+                                <span class="font-medium">You save: </span>
+                                <span class="text-green-600 font-bold">
+                                    ৳{{ "{:,.0f}".format(hotel.booking.price - hotel.agoda.price if hotel.best_platform == 'agoda' else hotel.agoda.price - hotel.booking.price) }}
+                                </span>
+                            </div>
+                            {% endif %}
+                        </div>
+                        
+                        <!-- Booking Actions -->
+                        <div class="flex justify-between items-center">
+                            <a 
+                                href="{{ hotel.booking.url if hotel.best_platform == 'booking' else hotel.agoda.url }}" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300 flex items-center"
+                            >
+                                <i class="fas fa-external-link-alt mr-2"></i>
+                                Book Now ({{ hotel.best_platform.title() }})
+                            </a>
+                            
+                            {% if hotel.booking and hotel.agoda %}
+                            <div class="flex">
+                                <a 
+                                    href="{{ hotel.booking.url }}" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    class="bg-gray-200 text-gray-700 px-2 py-1 rounded-l hover:bg-gray-300 transition duration-300 text-sm"
+                                >
+                                    Booking
+                                </a>
+                                <a 
+                                    href="{{ hotel.agoda.url }}" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    class="bg-gray-200 text-gray-700 px-2 py-1 rounded-r hover:bg-gray-300 transition duration-300 text-sm"
+                                >
+                                    Agoda
+                                </a>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="bg-yellow-50 p-4 rounded text-center">
+                <p class="text-yellow-700 text-lg">
+                    <i class="fas fa-search mr-2"></i>
+                    No results found for {{ city }}.
+                </p>
+            </div>
+            {% endif %}
+            <div class="mt-6 text-center">
+                <a href="/" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300 inline-flex items-center">
+                    <i class="fas fa-search mr-2"></i>
+                    New Search
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function bookmarkHotel(button) {
+            // Prevent multiple clicks
+            button.disabled = true;
+            
+            // Prepare hotel data from data attributes
+            const hotelData = {
+                hotel_name: button.dataset.hotelName,
+                hotel_location: button.dataset.hotelLocation,
+                hotel_price: parseInt(button.dataset.hotelPrice),
+                hotel_rating: parseInt(button.dataset.hotelRating),
+                hotel_image_url: button.dataset.hotelImageUrl,
+                hotel_booking_url: button.dataset.hotelBookingUrl
+            };
+            // Send bookmark request
+            axios.post('/bookmark', hotelData)
+                .then(response => {
+                    if (response.data.status === 'bookmarked') {
+                        // Change bookmark icon color to indicate bookmarked
+                        const icon = button.querySelector('i');
+                        icon.classList.remove('text-gray-400');
+                        icon.classList.add('text-blue-500');
+                        
+                        // Show success toast/notification
+                        showNotification('Hotel bookmarked successfully!', 'success');
+                    } else if (response.data.status === 'already_bookmarked') {
+                        // Show already bookmarked notification
+                        showNotification('Hotel is already in your bookmarks!', 'warning');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error bookmarking hotel:', error);
+                    
+                    // Show error notification
+                    showNotification('Failed to bookmark hotel. Please try again.', 'error');
+                })
+                .finally(() => {
+                    // Re-enable the button
+                    button.disabled = false;
+                });
+        }
+        function showNotification(message, type) {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.className = `fixed top-4 right-4 px-4 py-2 rounded shadow-lg z-50 
+                ${type === 'success' ? 'bg-green-500 text-white' : 
+                  type === 'warning' ? 'bg-yellow-500 text-black' : 
+                  'bg-red-500 text-white'}`;
+            notification.textContent = message;
+            // Add to body
+            document.body.appendChild(notification);
+            // Remove after 3 seconds
+            setTimeout(() => {
+                document.body.removeChild(notification);
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

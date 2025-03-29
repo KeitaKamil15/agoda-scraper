@@ -1,0 +1,10 @@
+fastapi[standard]
+SQLAlchemy
+passlib
+python-jose
+psycopg2-binary
+itsdangerous
+scrapy
+scrapy-playwright
+beautifulsoup4
+tqdm

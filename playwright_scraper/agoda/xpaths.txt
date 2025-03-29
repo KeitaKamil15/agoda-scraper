@@ -1,0 +1,15 @@
+//*[@id="textInput"]
+//*[@id="Tabs-Container"]/button//span[contains(text(),"SEARCH")]
+//*[@id="paginationNext"]
+//div[@id="contentContainer"]
+//*[@id="SideBarLocationFilters"]//li[4]/label[@data-element-value="1"]
+
+//div[@id="SideBarLocationFilters"]//input[@id="price_box_1"][@aria-label="Maximum price filter"]
+//div[@id="SideBarLocationFilters"]//input[@id="price_box_0"][@aria-label="Minimum price filter"]
+
+We couldn't find any results that match your search criteria. Please modify your search and try again.
+//*[@id="contentContainer"]///p
+
+//*[@id="contentContainer"]//ol[@class="hotel-list-container"]//li[@data-selenium="hotel-item"]//h3[@data-selenium="hotel-name"]
+//*[@id="contentContainer"]//ol[@class="hotel-list-container"]//li[@data-selenium="hotel-item"]//span[contains(text(),"stars out of 5")]
+//*[@id="contentContainer"]//ol[@class="hotel-list-container"]//li[@data-selenium="hotel-item"]//div[@data-element-name="final-price"]//span[@data-selenium="display-price"]

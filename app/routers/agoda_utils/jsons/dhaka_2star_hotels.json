@@ -1,0 +1,86 @@
+[
+    {
+        "hotel_name": "Hotel White House International (Near Dhaka Medical)",
+        "hotel_price": 21.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/hotel-white-house-international-near-dhaka-medical/hotel/all/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=3fde29a3-1992-4986-bc33-035b5e47369c",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/518924501.jpg?k=176c618111137ca82115b347797d1cf8f4f5b7aec57cc16981a803b9ea4f5025&s=450x450"
+    },
+    {
+        "hotel_name": "Hotel De Meridian Ltd",
+        "hotel_price": 28.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/hotel-de-meridian-ltd/hotel/all/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=3fde29a3-1992-4986-bc33-035b5e47369c",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/144695203.jpg?k=06dd289eb16adf05d759d480c777319ba25e67dc601b89b3958a77057487c291&s=450x450"
+    },
+    {
+        "hotel_name": "Hotel White Stone",
+        "hotel_price": 24.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/hotel-white-stone/hotel/all/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=3fde29a3-1992-4986-bc33-035b5e47369c",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/586780366.jpg?k=5874755f53ebbc29441a7f332cab25c414d63cff7c85d22a1fab54e61b102137&s=450x450"
+    },
+    {
+        "hotel_name": "Skylink Limited",
+        "hotel_price": 27.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/hotel-skylink-ltd_3/hotel/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=3fde29a3-1992-4986-bc33-035b5e47369c",
+        "image_url": "https://pix8.agoda.net/hotelImages/40795776/0/327e2cb2ce71996987ec6db97ba40f16.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Hotel Sikder Residential",
+        "hotel_price": 25.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/hotel-sikder-residential/hotel/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=3fde29a3-1992-4986-bc33-035b5e47369c",
+        "image_url": "https://pix8.agoda.net/hotelImages/37778115/0/f4a92485c8610aaf4794725cda6f5aa8.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Blue Castle Hotel",
+        "hotel_price": 26.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/hotel-blue-castle/hotel/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&tspTypes=1&los=1&searchrequestid=3fde29a3-1992-4986-bc33-035b5e47369c",
+        "image_url": "https://pix8.agoda.net/hotelImages/37244767/0/93a38f59dcd364ad04387ab0eb666624.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Hotel In Need - Near to the US France Italy Saudi Embassy and Airport",
+        "hotel_price": 21.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/hotel-in-need/hotel/all/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&tspTypes=8&los=1&searchrequestid=3fde29a3-1992-4986-bc33-035b5e47369c",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/512142357.jpg?k=0a736edde2173fc4e104ac60a414dea9fda518b428be75dad88e9a162f46811e&s=450x450"
+    },
+    {
+        "hotel_name": "Hotel City Panthapath",
+        "hotel_price": 25.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/hotel-city-panthapath/hotel/all/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&tspTypes=8&los=1&searchrequestid=3fde29a3-1992-4986-bc33-035b5e47369c",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/497862078.jpg?k=4cad67baccef843ee989206e2092e761dd83e47cf5112ded32e2facda3919ce6&s=450x450"
+    },
+    {
+        "hotel_name": "Grand Lake View Hotel Uttara",
+        "hotel_price": 25.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/grand-lake-view-hotel-uttara-h56231273/hotel/all/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=c1cf6810-e1d1-4af4-b27d-f4bb032987d5",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/562532702.jpg?k=ef3fcf1494cd8dfb6478b555d014a42ea4d2ec66b5ba2eb4285d8d4d09228185&s=450x450"
+    },
+    {
+        "hotel_name": "Full Two Bed Apartment in Dhaka",
+        "hotel_price": 27.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/full-two-bed-apartment-in-dhaka/hotel/all/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=c1cf6810-e1d1-4af4-b27d-f4bb032987d5",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/615435573.jpg?k=22f18ccd4104436aca11bba50a8d95935a79d77c13a70d36bf12c587644b4fd0&s=450x450"
+    },
+    {
+        "hotel_name": "Cozy Stay in New Flat, Dhaka, BD",
+        "hotel_price": 29.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/cozy-stay-in-new-flat-dhaka-bd/hotel/all/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=c1cf6810-e1d1-4af4-b27d-f4bb032987d5",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/537100291.jpg?k=bb8d0c2cb8fee1843bcc2e21aec76c7a4c6687800a8d2ee1c5f44a14d871516f&s=450x450"
+    },
+    {
+        "hotel_name": "Hotel City International Residential",
+        "hotel_price": 20.0,
+        "hotel_rating": "2",
+        "booking_url": "https://www.agoda.com/hotel-city-international-residential-h67815557/hotel/all/dhaka-bd.html?countryId=117&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-04-7&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=USD&isFreeOccSearch=false&los=1&searchrequestid=c1cf6810-e1d1-4af4-b27d-f4bb032987d5",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/658572020.jpg?k=b6ec29828a359dc8b0613ccf2c24bb251c1e2b3e940a0785ef266808c9e84bb3&s=450x450"
+    }
+]
