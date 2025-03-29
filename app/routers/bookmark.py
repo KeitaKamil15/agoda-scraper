@@ -6,6 +6,7 @@ from app.database import get_db
 from app.models import Bookmark, User
 from pydantic import BaseModel
 from fastapi.templating import Jinja2Templates
+from typing import Optional
 
 router = APIRouter()
 templates = Jinja2Templates(directory="app/templates")
@@ -13,11 +14,15 @@ templates = Jinja2Templates(directory="app/templates")
 class BookmarkCreate(BaseModel):
     hotel_name: str
     hotel_location: str
-    hotel_price: int
-    hotel_rating: int
-    hotel_image_url: str
-    hotel_booking_url: str
-
+    booking_price: Optional[int] = None
+    booking_url: Optional[str] = None
+    booking_image: Optional[str] = None
+    booking_alt: Optional[str] = None
+    agoda_price: Optional[int] = None
+    agoda_url: Optional[str] = None
+    agoda_image: Optional[str] = None
+    star_rating: int
+    best_platform: str
 
 @router.post("/bookmark")
 def create_bookmark(
@@ -26,12 +31,12 @@ def create_bookmark(
     db: Session = Depends(get_db)
 ):
     # Check if user is logged in
-    username = request.session.get("user")
-    if not username:
+    email = request.session.get("email")
+    if not email:
         raise HTTPException(status_code=401, detail="Not authenticated")
     
     # Find the user
-    user = db.query(User).filter(User.username == username).first()
+    user = db.query(User).filter(User.email == email).first()
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
     
@@ -52,12 +57,17 @@ def create_bookmark(
         user_id=user.id,
         hotel_name=bookmark_data.hotel_name,
         hotel_location=bookmark_data.hotel_location,
-        hotel_price=bookmark_data.hotel_price,
-        hotel_rating=bookmark_data.hotel_rating,
-        hotel_image_url=bookmark_data.hotel_image_url,
-        hotel_booking_url=bookmark_data.hotel_booking_url,
+        booking_price=bookmark_data.booking_price,
+        booking_url=bookmark_data.booking_url,
+        booking_image=bookmark_data.booking_image,
+        booking_alt=bookmark_data.booking_alt,
+        agoda_price=bookmark_data.agoda_price,
+        agoda_url=bookmark_data.agoda_url,
+        agoda_image=bookmark_data.agoda_image,
+        star_rating=bookmark_data.star_rating,
+        best_platform=bookmark_data.best_platform,
         city=search_params.get('city', 'Unknown'),
-        price_range=str(search_params.get("min_price", 0)) + '-' + str(search_params.get("max_price", 0)),
+        price_range=f"{search_params.get('min_price', 0)}-{search_params.get('max_price', 0)}",
     )
     
     db.add(new_bookmark)
@@ -70,8 +80,9 @@ def create_bookmark(
 def get_bookmarks(request: Request, db: Session = Depends(get_db)):
     # Check if user is logged in
     email = request.session.get("email")
+    username = request.session.get("user")
     if not email:
-        return RedirectResponse(url="/auth/login", status_code=HTTP_303_SEE_OTHER)
+        raise HTTPException(status_code=401, detail="Not authenticated")
     
     # Find the user
     user = db.query(User).filter(User.email == email).first()
@@ -81,7 +92,11 @@ def get_bookmarks(request: Request, db: Session = Depends(get_db)):
     # Get user's bookmarks
     bookmarks = db.query(Bookmark).filter(Bookmark.user_id == user.id).all()
     
-    return templates.TemplateResponse("bookmarks.html", {"request": request, "bookmarks": bookmarks})
+    return templates.TemplateResponse("bookmarks.html", {
+        "request": request, 
+        "bookmarks": bookmarks,
+        "username": username
+    })
 
 @router.delete("/bookmark/{hotel_name}")
 def delete_bookmark(
@@ -92,7 +107,7 @@ def delete_bookmark(
     # Check if user is logged in
     email = request.session.get("email")
     if not email:
-        return RedirectResponse(url="/auth/login", status_code=HTTP_303_SEE_OTHER)
+        raise HTTPException(status_code=401, detail="Not authenticated")
     
     # Find the user
     user = db.query(User).filter(User.email == email).first()

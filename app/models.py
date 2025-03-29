@@ -17,19 +17,30 @@ class User(Base):
 
 class Bookmark(Base):
     """
-    SQLAlchemy Bookmark model representing hotel bookmarks for users.
+    SQLAlchemy Bookmark model representing hotel bookmarks with comparison data from both platforms.
     """
     __tablename__ = "bookmarks"
     id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
     hotel_name = Column(String, nullable=False)
     hotel_location = Column(String, nullable=False)
-    hotel_price = Column(Integer, nullable=False)
-    hotel_rating = Column(Integer, nullable=False)
-    hotel_image_url = Column(String, nullable=False)
-    hotel_booking_url = Column(String, nullable=False)
+    
+    # Booking.com data
+    booking_price = Column(Integer, nullable=True)
+    booking_url = Column(String, nullable=True)
+    booking_image = Column(String, nullable=True)
+    booking_alt = Column(String, nullable=True)
+    
+    # Agoda data
+    agoda_price = Column(Integer, nullable=True)
+    agoda_url = Column(String, nullable=True)
+    agoda_image = Column(String, nullable=True)
+    
+    # Common data
+    star_rating = Column(Integer, nullable=False)
+    best_platform = Column(String, nullable=False)
     city = Column(String, nullable=False)
-    price_range = Column(String, nullable=False)
+    price_range = Column(String, nullable=True)
     
     # Relationship to user
     user = relationship("User", back_populates="bookmarks")

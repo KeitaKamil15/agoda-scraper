@@ -33,7 +33,7 @@ def get_dates():
     day_after_tomorrow = today + timedelta(days=2)
     day_after_tomorrow_date = day_after_tomorrow.strftime('%Y-%m-%d')
 
-    tomorrow_date = '2025-04-07'
-    day_after_tomorrow_date = '2025-04-08'
+    tomorrow_date = '2025-04-08'
+    day_after_tomorrow_date = '2025-04-09'
 
     return tomorrow_date, day_after_tomorrow_date
