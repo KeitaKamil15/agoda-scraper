@@ -100,16 +100,21 @@ def search_results(request: Request):
     city = search_params.get('city', '').lower()
     
     # Get Booking.com results
-    booking_html_file_path = f"app/routers/booking_utils/html_files/{city}_booking.html"
-    if os.path.exists(booking_html_file_path):
-        booking_search_results = extract_hotel_data(booking_html_file_path)
-        booking_search_results = filter_hotels(
-            booking_search_results, 
-            search_params.get("min_price", 0), 
-            search_params.get("max_price", 0), 
-            search_params.get("star_rating", 0)
-        )
-    else:
+    try:
+
+        booking_html_file_path = f"app/routers/booking_utils/html_files/{city}_booking.html"
+        if os.path.exists(booking_html_file_path):
+            booking_search_results = extract_hotel_data(booking_html_file_path)
+            booking_search_results = filter_hotels(
+                booking_search_results, 
+                search_params.get("min_price", 0), 
+                search_params.get("max_price", 0), 
+                search_params.get("star_rating", 0)
+            )
+        else:
+            booking_search_results = []
+    except Exception as e:
+        print(f"Error processing Booking.com results: {e}")
         booking_search_results = []
     
     # Get Agoda results

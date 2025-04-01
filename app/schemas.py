@@ -1,36 +1,16 @@
 from pydantic import BaseModel, EmailStr
+from typing import Optional
 
-class UserCreate(BaseModel):
-    """
-    Schema for user registration.
-    """
-    username: str
-    email: EmailStr
-    password: str
-
-class UserResponse(BaseModel):
-    """
-    Schema for returning user data.
-    """
-    id: int
-    username: str
-    email: EmailStr
-
-    class Config:
-        from_attributes = True  # ORM compatibility
-
-class Token(BaseModel):
-    """
-    Schema for access token response.
-    """
-    access_token: str
-    refresh_token: str
-    token_type: str
-
-class UserLogin(BaseModel):
-    """
-    Schema for user login.
-    """
-    email: EmailStr
-    password: str
+class BookmarkCreate(BaseModel):
+    hotel_name: str
+    hotel_location: str
+    booking_price: Optional[int] = None
+    booking_url: Optional[str] = None
+    booking_image: Optional[str] = None
+    booking_alt: Optional[str] = None
+    agoda_price: Optional[int] = None
+    agoda_url: Optional[str] = None
+    agoda_image: Optional[str] = None
+    star_rating: int
+    best_platform: str
 

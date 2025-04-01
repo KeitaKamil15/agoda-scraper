@@ -6,9 +6,11 @@ from typing import List, Dict
 
 def filter_hotels(hotels: List[Dict], min_price: int, max_price: int, rating: int) -> List[Dict]:
     """Filters hotels based on price range and minimum rating."""
+    
     return [
         hotel for hotel in hotels
-        if min_price <= hotel["price"] <= max_price and hotel["star_rating"] == rating
+        if hotel.get("price") is not None and hotel.get("star_rating") is not None
+        and min_price <= hotel["price"] <= max_price and hotel["star_rating"] == rating
     ]
 
 def extract_hotel_data(file_path: str) -> list[dict]:

@@ -1,28 +1,12 @@
 from fastapi import APIRouter, Depends, HTTPException, Request
 from sqlalchemy.orm import Session
-from starlette.responses import RedirectResponse
-from starlette.status import HTTP_303_SEE_OTHER
 from app.database import get_db
 from app.models import Bookmark, User
-from pydantic import BaseModel
 from fastapi.templating import Jinja2Templates
-from typing import Optional
+from app.schemas import BookmarkCreate
 
 router = APIRouter()
 templates = Jinja2Templates(directory="app/templates")
-
-class BookmarkCreate(BaseModel):
-    hotel_name: str
-    hotel_location: str
-    booking_price: Optional[int] = None
-    booking_url: Optional[str] = None
-    booking_image: Optional[str] = None
-    booking_alt: Optional[str] = None
-    agoda_price: Optional[int] = None
-    agoda_url: Optional[str] = None
-    agoda_image: Optional[str] = None
-    star_rating: int
-    best_platform: str
 
 @router.post("/bookmark")
 def create_bookmark(

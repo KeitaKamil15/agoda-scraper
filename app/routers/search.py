@@ -6,9 +6,9 @@ import uuid
 import os
 
 # Import the Playwright simulation function
-from app.routers.booking_utils.playwright_simulation import booking_list_scraping
+from app.routers.booking_utils.booking_scraper import booking_list_scraping
 from app.routers.booking_utils.background_task_manager import scraping_task_manager
-from app.routers.agoda_utils.agoda_loader import agoda_list_scraping
+from app.routers.agoda_utils.agoda_scraper import agoda_list_scraping
 
 router = APIRouter()
 templates = Jinja2Templates(directory="app/templates")

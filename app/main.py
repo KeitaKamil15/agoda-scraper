@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request, Depends
 from app.database import Base, engine
-from app.routers import auth, users, search, results, bookmark
+from app.routers import auth, search, results, bookmark
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from starlette.middleware.sessions import SessionMiddleware
@@ -24,7 +24,6 @@ templates = Jinja2Templates(directory="app/templates")
 
 # Include routers
 app.include_router(auth.router)
-app.include_router(users.router)
 app.include_router(search.router)
 app.include_router(results.router)
 app.include_router(bookmark.router)

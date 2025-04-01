@@ -17,10 +17,11 @@ def visit_agoda_homepage(p):
     with human-like behavior. Returns the tuple (page, context, browser) for further actions.
     """
     # Randomly choose a browser
-    browser_name = random.choice(["firefox", "chromium"])
+    browser_name = random.choice(["firefox"])
     print(f"Using browser: {browser_name}")
     # Pick a random user agent for the selected browser
     user_agent = random.choice(USER_AGENTS[browser_name])
+    user_agent = USER_AGENTS[browser_name][0]
     print(f"Using user agent: {user_agent}")
     # Launch the chosen browser
     browser = getattr(p, browser_name).launch(headless=False)
@@ -51,14 +52,39 @@ def search_agoda_homepage(page, city_name: str):
     page.type("xpath=//*[@id='textInput']", city_name, delay=random.randint(50, 150))
     random_delay(1, 2)
     print(f"Entered city name: {city_name}")
+    
     # Click at the top-left corner to dismiss the suggestions dropdown
     page.mouse.click(10, 10)  # Coordinates near top-left corner
     random_delay(0.5, 1)
     print("Clicked to dismiss suggestions dropdown")
+    
+    # Get tomorrow and day after tomorrow's dates
+    check_in_date, check_out_date = get_dates()
+    
+    # Click on check-in box to open the date picker
+    page.click("xpath=//*[@id='check-in-box']")
+    random_delay(1, 2)
+    print(f"Clicked check-in box, selecting date: {check_in_date}")
+    
+    # Click on the check-in date
+    page.click(f"xpath=//span[@data-selenium-date='{check_in_date}']")
+    random_delay(1, 2)
+    print(f"Selected check-in date: {check_in_date}")
+    
+    # Automatically selects check-out date after check-in, but in case we need to explicitly select it:
+    page.click(f"xpath=//span[@data-selenium-date='{check_out_date}']")
+    random_delay(1, 2)
+    print(f"Selected check-out date: {check_out_date}")
+    
+    # Click at the top-left corner to dismiss the date picker if needed
+    page.mouse.click(10, 10)
+    random_delay(0.5, 1)
+    print("Clicked to dismiss date picker")
+    
     # Simulate human mouse movement before clicking the search button
     simulate_human_mouse(page)
     page.click("xpath=//*[@id='Tabs-Container']/button//span[contains(text(),'SEARCH')]")
-    random_delay(5, 6)
+    random_delay(2, 3)
     print("Clicked search button...")
 
 def apply_hotel_filter(page, star_rating, min_price=None, max_price=None):
@@ -117,34 +143,34 @@ def apply_hotel_filter(page, star_rating, min_price=None, max_price=None):
     page.mouse.click(10, 10)  # Coordinates near top-left corner
     random_delay(0.5, 1)
     
-    try:
-        # Construct the filter xpath
-        filter_xpath = f'//*[@id="SideBarLocationFilters"]//li/label[@data-element-name="search-filter-starratingwithluxury"][@data-element-value="{star_rating}"]'
+    # try:
+    #     # Construct the filter xpath
+    #     filter_xpath = f'//*[@id="SideBarLocationFilters"]//li/label[@data-element-name="search-filter-starratingwithluxury"][@data-element-value="{star_rating}"]'
         
-        # Click on the star rating filter
-        # simulate_human_mouse(page)
-        #scroll down a bit
-        page.evaluate("window.scrollBy(0, window.innerHeight/2)")
-        #scroll down 300 more
-        page.evaluate("window.scrollBy(0, 300)")
-        random_delay(1, 2)
-        page.click(filter_xpath)
-        print(f"Clicked on {star_rating}-star rating filter")
+    #     # Click on the star rating filter
+    #     # simulate_human_mouse(page)
+    #     #scroll down a bit
+    #     page.evaluate("window.scrollBy(0, window.innerHeight/2)")
+    #     #scroll down 300 more
+    #     page.evaluate("window.scrollBy(0, 300)")
+    #     random_delay(1, 2)
+    #     page.click(filter_xpath)
+    #     print(f"Clicked on {star_rating}-star rating filter")
         
-        # Wait for the page to update with filtered results
-        random_delay(3, 5)
+    #     # Wait for the page to update with filtered results
+    #     random_delay(3, 5)
         
-        # Check if search results are empty after applying star rating filter
-        no_results_xpath = "//*[@id='contentContainer']//p[contains(text(), \"We couldn't find any results that match your search criteria\")]"
-        if page.is_visible(no_results_xpath, timeout=5000):
-            print("No results found after applying star rating filter.")
-            return False
+    #     # Check if search results are empty after applying star rating filter
+    #     no_results_xpath = "//*[@id='contentContainer']//p[contains(text(), \"We couldn't find any results that match your search criteria\")]"
+    #     if page.is_visible(no_results_xpath, timeout=5000):
+    #         print("No results found after applying star rating filter.")
+    #         return False
         
-        # Wait for the content container to refresh
-        page.wait_for_selector('//div[@id="contentContainer"]', timeout=15000)
-    except Exception as e:
-        print(f"An error occurred while clicking the start rating: {e}")
-        # return False
+    #     # Wait for the content container to refresh
+    #     page.wait_for_selector('//div[@id="contentContainer"]', timeout=15000)
+    # except Exception as e:
+    #     print(f"An error occurred while clicking the start rating: {e}")
+    #     # return False
     
     return True
     
@@ -162,8 +188,15 @@ def extract_hotel_info(item, star_rating, min_price=None, max_price=None):
         dict or None: A dictionary with hotel details if the hotel matches the criteria, otherwise None.
     """
     try:
+        # inner html code in a file
+        # with open('app/routers/agoda_utils/item.html', 'w') as f:
+        #     f.write(item.inner_html())
         hotel_name_element = item.query_selector("a[data-selenium='hotel-name'] span")
         hotel_name = hotel_name_element.text_content() if hotel_name_element else "N/A"
+
+        if hotel_name == "N/A":
+            hotel_name_element = item.query_selector("h3[data-selenium='hotel-name']")
+            hotel_name = hotel_name_element.text_content() if hotel_name_element else "N/A"
         
         # Extract hotel rating
         rating_elements = item.query_selector_all("span")
@@ -191,8 +224,11 @@ def extract_hotel_info(item, star_rating, min_price=None, max_price=None):
                 pass
         
         # Extract booking URL
-        booking_url_element = item.query_selector("div[class='PropertyCard__Link']")
-        booking_url = booking_url_element.get_attribute("data-element-url") if booking_url_element else "N/A"
+        booking_url_element = item.query_selector("a[data-selenium='hotel-name']")
+        booking_url = booking_url_element.get_attribute("href") if booking_url_element else "N/A"
+        if booking_url == "N/A":
+            booking_url_element = item.query_selector("a[class='PropertyCard__Link']")
+            booking_url = booking_url_element.get_attribute("href") if booking_url_element else "N/A"
 
         # Extract main image URL
         main_image_element = item.query_selector("button[data-element-name='ssrweb-mainphoto'] img")
@@ -241,7 +277,12 @@ def scroll_and_navigate_all_results(page, city_name, star_rating, min_price=None
         # Wait for the content container to load
         page.wait_for_selector('//div[@id="contentContainer"]', timeout=10000)
         print(f"Page {page_num} loaded. Scrolling through results...")
-        
+
+        # Check if search results are empty after setting price filters
+        no_results_xpath = "//*[@id='contentContainer']//p[contains(text(), \"We couldn't find any results that match your search criteria\")]"
+        if page.is_visible(no_results_xpath, timeout=5000):
+            print("No results found anymore")
+            break        
         # Scroll down gradually to load all hotels on current page
         last_height = page.evaluate("document.body.scrollHeight")
         current_position = 0
@@ -298,7 +339,7 @@ def scroll_and_navigate_all_results(page, city_name, star_rating, min_price=None
     
     return hotel_info
 
-def booking_list_scraping(city_name: str = "", star_rating: str = "5", min_price: int = None, max_price: int = None,output_folder: str = 'jsons'):
+def agoda_list_scraping(city_name: str = "", star_rating: str = "5", min_price: int = None, max_price: int = None,output_folder: str = 'jsons'):
     """
     Orchestrates the Agoda scraping process with filters for star rating and price range.
     
@@ -312,31 +353,33 @@ def booking_list_scraping(city_name: str = "", star_rating: str = "5", min_price
         list: List of dictionaries containing hotel information that matches the criteria
     """
     hotel_results = []
-    
-    with sync_playwright() as p:
-        # Initialize browser and visit Agoda homepage
-        page, context, browser = visit_agoda_homepage(p)
-        
-        # Perform the search on the homepage
-        search_agoda_homepage(page, city_name)
-        
-        # Wait for the search results to load
-        page.wait_for_selector('//div[@id="contentContainer"]', timeout=15000)
-        
-        # Apply star rating and price filters
-        results_found = apply_hotel_filter(page, star_rating, min_price, max_price)
-        
-        if results_found:
-            # Scroll through all pages and navigate using the Next button
-            # Also extract hotel information
-            hotel_results = scroll_and_navigate_all_results(page, city_name, star_rating, min_price, max_price)
-        else:
-            hotel_results = []
-            print("No results found after applying filters.")
-        
-        # Close the context and browser
-        context.close()
-        browser.close()
+    try:
+        with sync_playwright() as p:
+            # Initialize browser and visit Agoda homepage
+            page, context, browser = visit_agoda_homepage(p)
+            
+            # Perform the search on the homepage
+            search_agoda_homepage(page, city_name)
+            
+            # Wait for the search results to load
+            page.wait_for_selector('//div[@id="contentContainer"]', timeout=15000)
+            
+            # Apply star rating and price filters
+            results_found = apply_hotel_filter(page, star_rating, min_price, max_price)
+            
+            if results_found:
+                # Scroll through all pages and navigate using the Next button
+                # Also extract hotel information
+                hotel_results = scroll_and_navigate_all_results(page, city_name, star_rating, min_price, max_price)
+            else:
+                hotel_results = []
+                print("No results found after applying filters.")
+            
+            # Close the context and browser
+            context.close()
+            browser.close()
+    except Exception as e:
+        print(f"Error during Agoda scraping: {e}")
     
     # Save results to a JSON file
     output_filename = f"{city_name}_{star_rating}star_hotels.json"
@@ -348,9 +391,9 @@ def booking_list_scraping(city_name: str = "", star_rating: str = "5", min_price
     return hotel_results
 
 if __name__ == "__main__":
-    hotels = booking_list_scraping(
+    hotels = agoda_list_scraping(
         city_name='dhaka', 
-        star_rating="2", 
+        star_rating="3", 
         min_price=20,  # Example minimum price
         max_price=30,  # Example maximum price
     )

@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import RedirectResponse
 from starlette.status import HTTP_303_SEE_OTHER
-from app import models, schemas, security, database
+from app import models, security, database
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
