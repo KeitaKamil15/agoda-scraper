@@ -111,11 +111,15 @@ def search_results(request: Request):
                 search_params.get("max_price", 0), 
                 search_params.get("star_rating", 0)
             )
+            # save the booking_search_results in a json file
+            with open(f"app/routers/booking_utils/jsons/{city}_booking.json", 'w') as f:
+                json.dump(booking_search_results, f)
         else:
             booking_search_results = []
     except Exception as e:
         print(f"Error processing Booking.com results: {e}")
         booking_search_results = []
+
     
     # Get Agoda results
     agoda_hotel_list_path = f"app/routers/agoda_utils/jsons/{search_params.get('city', '')}_{search_params.get('star_rating', 0)}star_hotels.json"

@@ -20,6 +20,11 @@ def perform_scraping(task_id: str, city: str, star_rating: str = "5", min_price:
     try:
         # Perform scraping agoda
         output_folder = "app/routers/agoda_utils/jsons"
+        # delete existing jsons
+        for filename in os.listdir(output_folder):
+            file_path = os.path.join(output_folder, filename)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
         dollar_to_bdt_rate = 120
         usd_min_price = min_price // dollar_to_bdt_rate
         usd_max_price = max_price // dollar_to_bdt_rate
@@ -27,6 +32,11 @@ def perform_scraping(task_id: str, city: str, star_rating: str = "5", min_price:
 
         # Prepare the HTML file path
         html_output_dir = "app/routers/booking_utils/html_files"
+        # delete existing html files
+        for filename in os.listdir(html_output_dir):
+            file_path = os.path.join(html_output_dir, filename)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
         os.makedirs(html_output_dir, exist_ok=True)
         html_filename = f"{html_output_dir}/{city.lower()}_booking.html"
         

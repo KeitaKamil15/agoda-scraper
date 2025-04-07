@@ -9,6 +9,30 @@ from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 with open('user_agents.json') as f:
     USER_AGENTS = json.load(f)
 
+def dismiss_login_popup(page):
+    """
+    Attempts to close the login/signin popup if it appears.
+    Returns True if popup was found and dismissed, False otherwise.
+    """
+    try:
+        # Short timeout to check if popup exists without waiting too long
+        dismiss_button = page.wait_for_selector("//button[@aria-label='Dismiss sign-in info.']", timeout=3000)
+        if dismiss_button:
+            print("Login popup detected. Attempting to dismiss...")
+            # Add some random delay before clicking to appear more human-like
+            random_delay(0.5, 1.5)
+            dismiss_button.click()
+            random_delay(1, 2)
+            print("Login popup dismissed successfully")
+            return True
+    except PlaywrightTimeoutError:
+        # No popup found, which is fine
+        return False
+    except Exception as e:
+        print(f"Error handling login popup: {e}")
+        return False
+    return False
+
 def visit_booking_homepage(p):
     """
     Initializes the browser, context, and page. Navigates to the Booking.com homepage 
@@ -40,6 +64,10 @@ def visit_booking_homepage(p):
     # Navigate to Booking.com homepage
     page.goto("https://www.booking.com", wait_until="networkidle")
     random_delay(1, 3)
+
+    # Check for and handle login popup on homepage
+    dismiss_login_popup(page)
+
     # Mimic a small scroll to emulate human behavior
     page.evaluate("window.scrollBy(0, window.innerHeight/8)")
     random_delay(1, 2)
@@ -81,6 +109,9 @@ def scroll_and_load_all_results(page):
     load_more_xpath = '//button[span[text()="Load more results"]]'
     
     while True:
+        # Check for and handle login popup on homepage
+        dismiss_login_popup(page)
+
         # Scroll down to ensure the button is in view
         page.evaluate("window.scrollBy(0, document.body.scrollHeight)")
         random_delay(2, 4)  # Mimic human pause
@@ -114,8 +145,14 @@ def booking_list_scraping(city_name: str = "", output_file: str = "booking_page.
         # Perform the search on the homepage
         search_booking_homepage(page, city_name)
 
+        # Check for and handle login popup on homepage
+        dismiss_login_popup(page)
+
         # Wait for search results container to ensure the page is loaded
         page.wait_for_selector('//div[@data-results-container="1"]')
+
+        # Check for and handle login popup on homepage
+        dismiss_login_popup(page)
 
         # Scroll and click "Load more results" until reaching the bottom
         scroll_and_load_all_results(page)
@@ -131,4 +168,4 @@ def booking_list_scraping(city_name: str = "", output_file: str = "booking_page.
         browser.close()
 
 if __name__ == "__main__":
-    booking_list_scraping(city_name='dhaka', output_file='dhaka.html')
+    booking_list_scraping(city_name='sylhet', output_file='sylhet.html')
