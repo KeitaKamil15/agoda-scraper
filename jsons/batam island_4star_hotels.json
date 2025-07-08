@@ -1,0 +1,499 @@
+[
+    {
+        "hotel_name": "Townhouse Oak Batam near Grand Batam Mall formerly Lucky Star Hotel",
+        "hotel_price": 95161.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/townhouse-oak-lucky-star-hotel/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=6&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/71571571/0/6165e891599f1361093e9152d09e24ca.jpg?ce=2&s=450x450"
+    },
+    {
+        "hotel_name": "Harmoni One Convention Hotel & Service Apartments",
+        "hotel_price": 458678.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/harmoni-one-convention-hotel-service-apartments/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=9,8&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/241/241090/241090_16041210340041456778.jpg?ca=6&ce=1&s=450x450"
+    },
+    {
+        "hotel_name": "Planet Holiday Hotel & Residence",
+        "hotel_price": 429359.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/planet-holiday-hotel-residence/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=7,8&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/255172/-1/3f7d3964417c97953f48dabbc66c7254.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Pacific Palace Hotel",
+        "hotel_price": 501119.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/pacific-palace-hotel/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/216220/-1/6586a614fa737fdc891095d260f49872.jpg?ca=9&ce=1&s=450x450"
+    },
+    {
+        "hotel_name": "Grand Eska Hotel & Suites Batam ",
+        "hotel_price": 465882.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/grand-eska-hotel-and-residences/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/37842818/-1/abd37b2ba86bb424060ab4c83d293730.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Beverly Hotel Batam",
+        "hotel_price": 330652.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/beverly-hotel-batam/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=4,8&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/6206677/-1/f2eba516124cac07ce2287ffae633716.png?ca=8&ce=1&s=450x450"
+    },
+    {
+        "hotel_name": "Nagoya Hill Hotel Batam",
+        "hotel_price": 739214.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/nagoya-hill-hotel-batam/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/973556/-1/900af0007e73ae4433bbe3020b0d4aaf.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "KTM Resort",
+        "hotel_price": 528550.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/ktm-resort/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/237/237716/237716_13070416010013833508.jpg?ca=0&ce=1&s=450x450"
+    },
+    {
+        "hotel_name": "Panbil Residence Serviced Apartment",
+        "hotel_price": 603512.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/panbil-residence-apartment-batam_2/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/4899452/-1/4d058fd597fa683055cc525518b623bf.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Harris Resort Barelang Batam",
+        "hotel_price": 826446.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/harris-resort-barelang-batam/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/3847734/-1/ee17a29b9c592860e606a66eb8162593.jpg?ca=25&ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Kings Hotel Nagoya Batam",
+        "hotel_price": 348795.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/king-s-hotel-batam-a-phm-collection/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=-1&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/489501/0/9e73b087983acead903af1a0120d7ccd.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "I Hotel Batam",
+        "hotel_price": 693095.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/grands-i-hotel/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=8&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/187061/0/9ec1a9963c5a0c0716ca0189c8da86a2.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "ibis Styles Batam Nagoya",
+        "hotel_price": 475000.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/ibis-styles-batam-nagoya/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/1295807/0/0c7b91a8f08854bedaa99cbb298e82ab.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Nongsa Point Marina & Resort",
+        "hotel_price": 739455.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/nongsa-point-marina-resort/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/178539/-1/d97c423d01e69200d47b827d7212f2b0.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "HARRIS Hotel Batam Center",
+        "hotel_price": 733712.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/harris-hotel-batam-center/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=8&los=1&searchrequestid=7579bc5c-ff23-4f50-ab2f-1297340af23c",
+        "image_url": "https://pix8.agoda.net/hotelImages/280554/-1/ad8724c7bbad1ef4e23a1ea32ef2ddbf.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "The BCC Hotel & Residence",
+        "hotel_price": 550455.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/the-bcc-hotel-residence/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=09a6317f-1567-4ca0-8c9b-f0a568f21fc3",
+        "image_url": "https://pix8.agoda.net/hotelImages/293997/-1/99ba97efe6cf37450eaec3a10efa3d01.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "I Hotel Baloi Batam",
+        "hotel_price": 914588.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/i-hotel-baloi-batam/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=09a6317f-1567-4ca0-8c9b-f0a568f21fc3",
+        "image_url": "https://pix8.agoda.net/hotelImages/894/894889/894889_16072315240044881966.jpg?ca=6&ce=1&s=450x450"
+    },
+    {
+        "hotel_name": "Oakwood Hotel & Apartments Grand Batam",
+        "hotel_price": 1115702.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/oakwood-hotel-apartments-grand-batam/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=6968f3e2-068a-4902-9844-36d7a3d080ce",
+        "image_url": "https://pix8.agoda.net/hotelImages/59577269/-1/5d03a364dd7cfa97532060246b1e8505.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Nine Days Hotel",
+        "hotel_price": 165190.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/nine-days-hotel/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=4&los=1&searchrequestid=6968f3e2-068a-4902-9844-36d7a3d080ce",
+        "image_url": "https://pix8.agoda.net/hotelImages/30845954/0/e7a921ac68fef86d103e669a65f63232.jpg?ca=27&ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Radisson Golf and Convention Center Batam",
+        "hotel_price": 1200000.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/radisson-golf-and-convention-center-batam/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=-1&los=1&searchrequestid=6968f3e2-068a-4902-9844-36d7a3d080ce",
+        "image_url": "https://pix8.agoda.net/hotelImages/9455127/0/bee8680ca5e18bf43c5860fc247e2b7b.jpg?ca=25&ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "AGlow Hotel Harbor Bay Batam",
+        "hotel_price": 561338.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/ggi-hotel-batam-h51663780/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=6968f3e2-068a-4902-9844-36d7a3d080ce",
+        "image_url": "https://pix8.agoda.net/hotelImages/51663780/0/60e3bfc7dabe2718582c99231042b36c.jpg?ce=2&s=450x450"
+    },
+    {
+        "hotel_name": "Kelong Mangrove Seafood Restaurant & Villa",
+        "hotel_price": 429127.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/kelong-mangrove-seafood-restaurant-villa-h65192639/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=6968f3e2-068a-4902-9844-36d7a3d080ce",
+        "image_url": "https://pix8.agoda.net/hotelImages/65192639/0/e7a019fbfe344860b5dca0d1667d1944.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Hendi Studio A1-3006 Seaview @ Pollux Habibie",
+        "hotel_price": 388164.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/hendi-studio-a1-3006-seaview-pollux-habibie/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=6968f3e2-068a-4902-9844-36d7a3d080ce",
+        "image_url": "https://pix8.agoda.net/hotelImages/58862090/0/08fdc93f9d0de87d36a4e59528fa2277.png?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Dancenterak Batam near Grand Batam Mall formerly Lucky Star Hotel",
+        "hotel_price": 132397.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/dancenter-batam-grand-stay/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=d3f198b1-fb66-4c8a-a4d1-0cfb7b14d30a",
+        "image_url": "https://pix8.agoda.net/hotelImages/71957178/0/7ade869265a098b9670cb5ba6d3ec4b4.jpg?ce=2&s=450x450"
+    },
+    {
+        "hotel_name": "MESA Thamrin City Apartments at Nagoya with Netflix & Pick Up Service",
+        "hotel_price": 483758.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/free-pick-up-food-paradise-studio-apt-with-netflix-by-mesa/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=d3f198b1-fb66-4c8a-a4d1-0cfb7b14d30a",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/495624412.jpg?k=95e193408ad40fe5541655bad3cd4a001a11b67dfd1c4a55b78ff18da0328913&s=450x450"
+    },
+    {
+        "hotel_name": "The Nove Apartment Kaina Tower",
+        "hotel_price": 515067.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/the-nove-apartment-kaina-tower/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=f42f4630-bfdd-46f1-b4e4-e78354763cb6",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/406149276.jpg?k=07987b991d55c80f1fbed713fad345d52e1ee6f4a4060cd5df17e711c5c8ff68&s=450x450"
+    },
+    {
+        "hotel_name": "2BR Penthouse at Kalani Nuvasa Bay Batam Sea View!",
+        "hotel_price": 804132.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/2br-penthouse-at-kalani-nuvasa-bay-batam-sea-view/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=f42f4630-bfdd-46f1-b4e4-e78354763cb6",
+        "image_url": "https://pix8.agoda.net/hotelImages/63281060/0/c1cc1699a4654f4a5f9d9111c7c47a88.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Harliv Studio A1-2112 Seaview @ Pollux Habibie",
+        "hotel_price": 400867.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/harliv-studio-a1-2112-seaview-pollux-habibie/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=1&los=1&searchrequestid=f42f4630-bfdd-46f1-b4e4-e78354763cb6",
+        "image_url": "https://pix8.agoda.net/hotelImages/55493392/0/2ccca7032e8595863e7d0285a0e07efe.png?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "SleepRest @ Nuvasa Bay 15C06",
+        "hotel_price": 403690.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/sleeprest-nuvasa-bay-15c06/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=f42f4630-bfdd-46f1-b4e4-e78354763cb6",
+        "image_url": "https://pix8.agoda.net/hotelImages/62059898/0/2c990701664ad4567fd17cce43eafda7.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Aston Residence 3BR 2001 City and Sea View",
+        "hotel_price": 1184780.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/3-br-aston-residence-pelita-20f-city-and-sea-view/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=f42f4630-bfdd-46f1-b4e4-e78354763cb6",
+        "image_url": "https://pix8.agoda.net/hotelImages/46432770/0/4fef8c087004907e981582b4a30d7642.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "HAI Home 2607 Studio at Citra Plaza",
+        "hotel_price": 303264.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/citra-plaza-2607-high-floor-cozy-studio/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=4&los=1&searchrequestid=f42f4630-bfdd-46f1-b4e4-e78354763cb6",
+        "image_url": "https://pix8.agoda.net/hotelImages/61757083/0/c6707e0ab35ad63b137ef41f1ae1f87f.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Oxy suites 2-02 at Shop House Meisterstadt Pollux Habibie",
+        "hotel_price": 723045.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/oxy-suites-2-02-at-shop-house-meisterstadt-pollux-habibie/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=f42f4630-bfdd-46f1-b4e4-e78354763cb6",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/476312808.jpg?k=9a0f7e505f614eba293d00ff71293e8197d2dad3d7dcd2413ddee3c114ad96a2&s=450x450"
+    },
+    {
+        "hotel_name": "Lovina 1819 Pollux Meisterstadt",
+        "hotel_price": 311294.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/lovina-1819-pollux-meisterstadt/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=6&los=1&searchrequestid=98a0feaf-bffd-4009-bc62-2f1def7101e6",
+        "image_url": "https://pix8.agoda.net/hotelImages/44420767/0/d2814da46b1b13f454a8479a2068ded2.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "The Westin Nirup Island Resort & Spa",
+        "hotel_price": 3900000.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/the-westin-nirup-island-resort-spa/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=98a0feaf-bffd-4009-bc62-2f1def7101e6",
+        "image_url": "https://pix8.agoda.net/hotelImages/69450435/0/9cd12a263096d893786c18bbe9d30660.jpeg?ce=2&s=450x450"
+    },
+    {
+        "hotel_name": "2BR Apartment Near Batam Centre Ferry Terminal",
+        "hotel_price": 536316.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/2br-apartment-near-batam-centre-ferry-terminal/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=50bdbfd9-9abd-4439-8e49-140b0e652012",
+        "image_url": "https://pix8.agoda.net/hotelImages/58288872/0/c29bf2d71100ee401bce4e40748ffe32.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Alexa Meisterstadt pollux habibie",
+        "hotel_price": 572156.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/alexa-meisterstadt-pollux-habibie/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=50bdbfd9-9abd-4439-8e49-140b0e652012",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/447981878.jpg?k=894e886400ff36165d3ff1f39499f8aa45cb0e36aa611b49c14dcecf1389604c&s=450x450"
+    },
+    {
+        "hotel_name": "Pollux Batam Center Cozy2BR w/great view+pool&gym ",
+        "hotel_price": 881240.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/pollux-habibie-2br-w-great-view-pool-gym-gbu/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=50bdbfd9-9abd-4439-8e49-140b0e652012",
+        "image_url": "https://pix8.agoda.net/hotelImages/56204944/0/3f4ae9b5c1fc88ac64893907f044a483.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Apartment Nuvasa Bay, Kalani Tower 1BR 8th, Sea & Golf View, Nongsa, Batam",
+        "hotel_price": 640809.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/cozy-nuvasa-bay-apt-1br-8th-sea-golf-view-nongsa/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=50bdbfd9-9abd-4439-8e49-140b0e652012",
+        "image_url": "https://pix8.agoda.net/hotelImages/52322846/0/350a5644bb6b30c104d0d96090ca4597.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Cozy Studio Apartment Pollux Batam",
+        "hotel_price": 495097.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/cozy-studio-apartment-pollux-batam/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=50bdbfd9-9abd-4439-8e49-140b0e652012",
+        "image_url": "https://pix8.agoda.net/hotelImages/59100360/0/1c94527cb0df11b6a4fc78ec14148bc4.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Lovina 20-03 at Formosa Residence - Nagoya",
+        "hotel_price": 641516.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/lovina-20-03-at-formosa-residence-nagoya/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=4&los=1&searchrequestid=50bdbfd9-9abd-4439-8e49-140b0e652012",
+        "image_url": "https://pix8.agoda.net/hotelImages/32829489/0/8623436e50fc9a455f053860418bce82.jpeg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Luxury apartment in nongsa golf",
+        "hotel_price": 1290384.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/luxury-apartment-in-nongsa-golf/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=50bdbfd9-9abd-4439-8e49-140b0e652012",
+        "image_url": "https://pix8.agoda.net/hotelImages/61214714/0/bf7929cdd20eca2b36b748e6c9412c30.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "SleepRest - Nuvasa Bay",
+        "hotel_price": 434891.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/sleeprest-nuvasa-bay/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=50bdbfd9-9abd-4439-8e49-140b0e652012",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/639045723.jpg?k=b3aa8d8c27ddd14178ef74041de0d438c162a18e21797d21c21e390d65534850&s=450x450"
+    },
+    {
+        "hotel_name": "Lovina 3508 at Pollux Meisterstadt",
+        "hotel_price": 357677.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/lovina-3508-at-pollux-meisterstadt/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=50bdbfd9-9abd-4439-8e49-140b0e652012",
+        "image_url": "https://pix8.agoda.net/hotelImages/34652541/0/159550a8075479e0a01d120f3ed52d2b.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Danka Vacation Home 3",
+        "hotel_price": 905618.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/unnamed-property-h35332922/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=4d07f926-ecf4-4faa-9622-a2c672c79415",
+        "image_url": "https://pix8.agoda.net/hotelImages/35332922/0/28e394b09d1c58e439477a71d8845223.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "3 Bedroom House Near Grand Batam Mall Nagoya",
+        "hotel_price": 1730088.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/3-bedroom-house-near-grand-batam-mall/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=-1&los=1&searchrequestid=4d07f926-ecf4-4faa-9622-a2c672c79415",
+        "image_url": "https://pix8.agoda.net/hotelImages/64901937/0/c395d3cd5a45daaa412b6688bfcf95e5.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Royal House 4BR close to Grand Batam Mall",
+        "hotel_price": 2421340.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/royal-house-near-grand-batam-mall-for-8pax/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=4d07f926-ecf4-4faa-9622-a2c672c79415",
+        "image_url": "https://pix8.agoda.net/hotelImages/63982026/0/4c12a3b45c90e40545d757e6c84b4571.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Family Holiday Fun APT Netflix by MESA",
+        "hotel_price": 904804.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/family-holiday-fun-apt-netflix-by-mesa/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=4d07f926-ecf4-4faa-9622-a2c672c79415",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/555663086.jpg?k=dbf3b60b789d762466397d6ceae758739bd32fede9e4138b20159d8ec4a1679c&s=450x450"
+    },
+    {
+        "hotel_name": "Family Holiday Fun APT Netflix by MESA",
+        "hotel_price": 904804.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/family-holiday-fun-apt-netflix-by-mesa/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=4d07f926-ecf4-4faa-9622-a2c672c79415",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/555663086.jpg?k=dbf3b60b789d762466397d6ceae758739bd32fede9e4138b20159d8ec4a1679c&s=450x450"
+    },
+    {
+        "hotel_name": "Binbaba Homestay Grand Maganda",
+        "hotel_price": 1672281.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/binbaba-cozy-homestay-family-friends/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&tspTypes=4&los=1&searchrequestid=4d07f926-ecf4-4faa-9622-a2c672c79415",
+        "image_url": "https://pix8.agoda.net/hotelImages/34530402/0/601008fd442452690ff4df32aafe0f22.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Havis House Monde Residence Homestay",
+        "hotel_price": 1276801.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/havis-house-monde-residence-homestay/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=4d07f926-ecf4-4faa-9622-a2c672c79415",
+        "image_url": "https://pix8.agoda.net/hotelImages/47524726/0/62750947ae873423644085d8ee524132.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Palm Spring Batam 3 Bedroom",
+        "hotel_price": 836924.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/palm-spring-batam-3-bedroom/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=4d07f926-ecf4-4faa-9622-a2c672c79415",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/585417089.jpg?k=0be11cd059ec5cc1f0ff647eccb8134a399b459a6d809be556427fd347b6f474&s=450x450"
+    },
+    {
+        "hotel_name": "Palm Spring Batam 3 Bedroom",
+        "hotel_price": 836924.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/palm-spring-batam-3-bedroom/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=db62d7eb-dcec-41f5-a795-9b75da4bbbc9",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/585417089.jpg?k=0be11cd059ec5cc1f0ff647eccb8134a399b459a6d809be556427fd347b6f474&s=450x450"
+    },
+    {
+        "hotel_name": "Nagoya Mansion Apart Trw B",
+        "hotel_price": 395460.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/nagoya-mansion-apartment-tower-b/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=db62d7eb-dcec-41f5-a795-9b75da4bbbc9",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/680043782.jpg?k=552867867a5ec70216fd591368ea12a4f156e3259ef1aa9c1700ad3f2377039b&s=450x450"
+    },
+    {
+        "hotel_name": "Royal Suites 1BR 35th - Citra Plaza Nagoya",
+        "hotel_price": 485727.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/royal-suites-1br-35rr-high-floor-citra-plaza-nagoya-apartment/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=db62d7eb-dcec-41f5-a795-9b75da4bbbc9",
+        "image_url": "https://pix8.agoda.net/hotelImages/55171857/0/0def62df28072e2a9a0817825e1cd1d8.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Bona 4 BR M2 - Summer Village",
+        "hotel_price": 1977704.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/bona-4-br-m2-summer-village/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=db62d7eb-dcec-41f5-a795-9b75da4bbbc9",
+        "image_url": "https://pix8.agoda.net/hotelImages/61735005/0/2cb93e51dda27f2ec0ad2ec995784c32.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Bona 5 BR H2A - Summer Village",
+        "hotel_price": 1615778.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/bona-5-br-h2a-summer-village/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=db62d7eb-dcec-41f5-a795-9b75da4bbbc9",
+        "image_url": "https://pix8.agoda.net/hotelImages/61735004/0/8ca1739be99eb0a76701cbf37f0e672f.png?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Nuvasa Bay Golf Studio Apartment",
+        "hotel_price": 526351.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/nuvasa-bay-studio-apartment-6a10/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=db62d7eb-dcec-41f5-a795-9b75da4bbbc9",
+        "image_url": "https://pix8.agoda.net/hotelImages/63413085/0/944474db44bd2c18f09271612695cf1e.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Nagoya Thamrin City, Batam",
+        "hotel_price": 304674.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/nagoya-thamrin-city-batam/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=9e854de6-5bc2-461b-8a54-3871e4ca378a",
+        "image_url": "https://pix8.agoda.net/hotelImages/76263012/0/940a33553bd5ddb6c29e8f3aa32bebe1.jpg?ce=2&s=450x450"
+    },
+    {
+        "hotel_name": "Family Stay at 03AB",
+        "hotel_price": 511075.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/family-stay-at-03ab/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=9e854de6-5bc2-461b-8a54-3871e4ca378a",
+        "image_url": "https://pix8.agoda.net/hotelImages/21768406/0/25b07e0e8f08de666f461cda096fcc92.jpg?ca=16&ce=1&s=450x450"
+    },
+    {
+        "hotel_name": "Studio Pollux View Laut",
+        "hotel_price": 342041.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/studio-pollux-view-laut/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=9e854de6-5bc2-461b-8a54-3871e4ca378a",
+        "image_url": "https://pix8.agoda.net/hotelImages/74321731/0/1d92a0a0f27c7ea2a8ceee8152bb425d.jpg?ce=2&s=450x450"
+    },
+    {
+        "hotel_name": "Alltrue Sydney Hotel Batam Center",
+        "hotel_price": 284469.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/alltrue-sydney-hotel-batam-center/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=9e854de6-5bc2-461b-8a54-3871e4ca378a",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/706005733.jpg?k=e5545e4f5c9ad82f6a68ab7e94a5b1b92f490a6cd0f773b3f8bfcbd3caec5b8f&s=450x450"
+    },
+    {
+        "hotel_name": "Welcome to your tropical getaway in Nuvasa Bay",
+        "hotel_price": 1365090.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/welcome-to-your-tropical-getaway-in-nuvasa-bay/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=9e854de6-5bc2-461b-8a54-3871e4ca378a",
+        "image_url": "https://pix8.agoda.net/hotelImages/63915734/0/d01502951c8e8f51c2a7507103c4dfe0.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Livi Guest House B7",
+        "hotel_price": 277339.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/livi-guest-house-b7/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=9e854de6-5bc2-461b-8a54-3871e4ca378a",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/656223865.jpg?k=2ad916c474c0ab6b46bb23fcc9bc1529d72c6e3bf5f7b6fe6c8a373d1e479230&s=450x450"
+    },
+    {
+        "hotel_name": "Welcome to your tropical getaway in Nuvasa Bay",
+        "hotel_price": 1365090.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/welcome-to-your-tropical-getaway-in-nuvasa-bay/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=d198d9da-33b7-4604-9807-55c59017c355",
+        "image_url": "https://pix8.agoda.net/hotelImages/63915734/0/d01502951c8e8f51c2a7507103c4dfe0.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Livi Guest House B7",
+        "hotel_price": 277339.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/livi-guest-house-b7/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=d198d9da-33b7-4604-9807-55c59017c355",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/656223865.jpg?k=2ad916c474c0ab6b46bb23fcc9bc1529d72c6e3bf5f7b6fe6c8a373d1e479230&s=450x450"
+    },
+    {
+        "hotel_name": "Two Bedroom Apartment at The Nove, Nuvasa Bay, Nongsa 719",
+        "hotel_price": 1106113.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/family-staycation-sea-view-7b19-at-nuvasa-bay/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=d198d9da-33b7-4604-9807-55c59017c355",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/548928885.jpg?k=535cd57387bdf699596c3d91a58a42cfe671b94e2592a1265f8e01fe9226b18f&s=450x450"
+    },
+    {
+        "hotel_name": "dind's home",
+        "hotel_price": 691469.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/dind-s-home/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=d198d9da-33b7-4604-9807-55c59017c355",
+        "image_url": "https://pix8.agoda.net/hotelImages/44369162/0/3f93ad39e35f4872b36133cf253877fa.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Alltrue Sydney Hotel Batam Center",
+        "hotel_price": 317358.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/alltrue-sydney-hotel-batam-center/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=d198d9da-33b7-4604-9807-55c59017c355",
+        "image_url": "https://pix8.agoda.net/hotelImages/76092485/0/ae2b92497d2925cb85553f159f6a3054.jpg?ce=2&s=450x450"
+    },
+    {
+        "hotel_name": "Pollux BAKAF Apartment TOP FLOOR 55th SEA VIEW",
+        "hotel_price": 534553.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/pollux-bakaf-apartment-top-floor-55th-sea-view/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=bcdc4d70-57e3-4e11-99d6-e8e3d4082306",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/675361977.jpg?k=6152ffaf4287dbea88ff7c705aed2ecc202f7e035875865e42e2aa1c3a8c1a3c&s=450x450"
+    },
+    {
+        "hotel_name": "SleepRest @ Villa Panbil L-02",
+        "hotel_price": 1006975.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/sleeprest-villa-panbil-l-02/hotel/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=bcdc4d70-57e3-4e11-99d6-e8e3d4082306",
+        "image_url": "https://pix8.agoda.net/hotelImages/60766739/0/687da8b5625c2637a4a53b6ece7e28fa.jpg?ce=0&s=450x450"
+    },
+    {
+        "hotel_name": "Apartment in Nongsa Palm Spring",
+        "hotel_price": 323399.0,
+        "hotel_rating": "4",
+        "booking_url": "https://www.agoda.com/apartment-in-nongsa-palm-spring/hotel/all/batam-island-id.html?countryId=192&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-07-6&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=IDR&isFreeOccSearch=false&los=1&searchrequestid=bcdc4d70-57e3-4e11-99d6-e8e3d4082306",
+        "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/708082079.jpg?k=4bbc6a7dcb82b790c4704f6ab3b10db411861ec2039f3c846c8f7dcfcf325964&s=450x450"
+    }
+]

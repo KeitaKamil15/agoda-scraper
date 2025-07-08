@@ -1,9 +1,0 @@
-//*[@id=":rh:"]
-//*[@id="indexsearch"]//*[@data-testid="searchbox-dates-container"]
-//*[@id="calendar-searchboxdatepicker"]//span[@data-date="2025-03-30"]
-//*[@id="indexsearch"]/div[2]/div/form/div/div[4]/button
-//*[@id="b2indexPage"]
-
-//*[@id="bodyconstraint-inner"]//div[@data-testid="property-card-container"]//img
-//*[@id="bodyconstraint-inner"]//div[@data-testid="property-card-container"]//div[@data-testid="title"]
-//*[@id="bodyconstraint-inner"]//div[@data-testid="property-card-container"]//div[@aria-label="3 out of 5"]
