@@ -15,7 +15,7 @@ Returns:
 """   
 
 
-from helper_methods import get_dates, random_delay, simulate_human_mouse
+from utils.helper_methods import get_dates, random_delay, simulate_human_mouse
 import random
 from tqdm import tqdm
 

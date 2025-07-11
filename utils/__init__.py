@@ -8,3 +8,4 @@ from utils.extract_hotel_detail import extract_hotel_detail
 from utils.change_date_book import change_date_book
 from utils.extract_amenities_facilities import extract_amenities_facilities
 from utils.click_all_show_more import click_all_show_more
+from utils.change_date_manual import change_date_manual

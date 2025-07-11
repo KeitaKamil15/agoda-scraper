@@ -1,5 +1,5 @@
 import random
-from helper_methods import random_delay
+from utils.helper_methods import random_delay
 
 def visit_agoda_homepage(p, USER_AGENTS: dict):
     """
@@ -26,7 +26,8 @@ def visit_agoda_homepage(p, USER_AGENTS: dict):
     # Open a new page in the context
     page = context.new_page()
     # Navigate to Booking.com homepage
-    page.goto("https://www.agoda.com/", wait_until="networkidle")
+    # page.goto("https://www.agoda.com/", wait_until="networkidle")
+    page.goto("https://www.agoda.com/", wait_until="load")
     random_delay(1, 3)
     # Mimic a small scroll to emulate human behavior
     page.evaluate("window.scrollBy(0, window.innerHeight/8)")

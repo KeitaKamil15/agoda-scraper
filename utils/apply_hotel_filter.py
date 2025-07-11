@@ -1,5 +1,5 @@
 import random
-from helper_methods import random_delay
+from utils.helper_methods import random_delay
 
 def apply_hotel_filter(page, star_rating, min_price=None, max_price=None):
     """

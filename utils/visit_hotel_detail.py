@@ -1,5 +1,5 @@
 
-from helper_methods import random_delay
+from utils.helper_methods import random_delay
 
 def visit_hotel_detail(p, link, USER_AGENTS: dict):
     """

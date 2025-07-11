@@ -1,5 +1,6 @@
 from .visit_hotel_detail import visit_hotel_detail
 from .change_date_book import change_date_book
+from .change_date_manual import change_date_manual
 from .extract_amenities_facilities import extract_amenities_facilities
 from .click_all_show_more import click_all_show_more
 from playwright.sync_api import sync_playwright, TimeoutError
@@ -40,6 +41,8 @@ def extract_hotel_detail(USER_AGENTS: dict, link, max_retries=3):
 
                 # print(hotel_name)
                 # print(hotel_loc)
+
+                # change_date_manual(page)
 
                 # extract amenities & facilities list
                 # list_facilities,page = extract_amenities_facilities(page)
@@ -100,7 +103,7 @@ def extract_hotel_detail(USER_AGENTS: dict, link, max_retries=3):
                                 else:
                                     print("Menggunakan element STRONG")
                                     price_locator = price_tipe.locator('div.PriceContainer').locator('strong[data-ppapi="room-price"]')
-                                    price = price_locator.text_content()
+                                    price = price_locator.first.text_content()
 
                         
                         # print(benefit)
