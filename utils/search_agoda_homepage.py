@@ -1,4 +1,4 @@
-from utils.helper_methods import get_dates, random_delay, simulate_human_mouse
+from .helper_methods import get_dates, random_delay, simulate_human_mouse
 import random
 
 def search_agoda_homepage(page, city_name: str):

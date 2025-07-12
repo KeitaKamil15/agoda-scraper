@@ -1,4 +1,4 @@
-from utils.helper_methods import get_dates, random_delay
+from .helper_methods import get_dates, random_delay
 from datetime import datetime, timedelta
 
 def change_date_book(page):

@@ -1,11 +1,16 @@
-from utils.visit_agoda_homepage import visit_agoda_homepage
+from utils.helper_methods import random_delay, simulate_human_mouse, get_dates, different_dates
+from .visit_agoda_homepage import visit_agoda_homepage
+from .visit_hotel_detail import visit_hotel
 from utils.search_agoda_homepage import search_agoda_homepage
 from utils.apply_hotel_filter import apply_hotel_filter
 from utils.extract_hotel_info import extract_hotel_info
 from utils.agoda_list_scraping import agoda_list_scraping
 from utils.scroll_and_navigate_all_results import scroll_and_navigate_all_results
-from utils.extract_hotel_detail import extract_hotel_detail
+# from extract_hotel_detail import extract_hotel_detail
 from utils.change_date_book import change_date_book
 from utils.extract_amenities_facilities import extract_amenities_facilities
 from utils.click_all_show_more import click_all_show_more
 from utils.change_date_manual import change_date_manual
+from utils.check_room_availability import check_room_availability
+from utils.extract_room_type import extract_room_type
+from utils.extract_helpful_fact import extract_helpful_fact

@@ -1,6 +1,6 @@
-from utils.helper_methods import get_dates, random_delay
+from .helper_methods import get_dates, random_delay, different_dates
 from datetime import datetime, timedelta
-from utils.helper_methods import different_dates
+
 def change_date_manual(page):
     print("="*100)
     page.locator("#check-in-box").first.click()

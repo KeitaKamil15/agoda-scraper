@@ -1,7 +1,7 @@
 
-from utils.helper_methods import random_delay
+from .helper_methods import random_delay
 
-def visit_hotel_detail(p, link, USER_AGENTS: dict):
+def visit_hotel(p, link, USER_AGENTS: dict):
     """
     Navigate to the hotel detail and info page with human-like
     behavior. Returns the tuple (page, context, browser) for 

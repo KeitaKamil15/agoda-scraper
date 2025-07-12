@@ -1,5 +1,5 @@
 import random
-from utils.helper_methods import random_delay
+from .helper_methods import random_delay
 
 def visit_agoda_homepage(p, USER_AGENTS: dict):
     """
