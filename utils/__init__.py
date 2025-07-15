@@ -14,3 +14,4 @@ from utils.change_date_manual import change_date_manual
 from utils.check_room_availability import check_room_availability
 from utils.extract_room_type import extract_room_type
 from utils.extract_helpful_fact import extract_helpful_fact
+from utils.parse_review import parse_review

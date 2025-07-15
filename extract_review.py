@@ -3,6 +3,8 @@ from utils import visit_hotel
 import traceback
 import time
 
+from utils import parse_review
+
 def extract_review(link, USER_AGENTS:dict,max_retries=3):
     list_hotel= []
     review = []
@@ -23,51 +25,31 @@ def extract_review(link, USER_AGENTS:dict,max_retries=3):
                 if nav_loc.count() > 0:
                     max_page = int(nav_loc.locator('li').last.text_content())
                     print('Jumlah halaman: ',max_page)
-                    for i in range(1,max_page):
+                    for i in range(1,max_page+1):
                         count_review = page.locator('div.Review-comment')
                         for y in range(count_review.count()):
                             review_loc = count_review.nth(y)
-                            review_id = review_loc.get_attribute('data-review-id')
-                            review_name_origin = review_loc.locator('div[data-info-type="reviewer-name"]').text_content()
-                            review_score = review_loc.locator('div.Review-comment-leftScore').text_content()
-                            review_score_text_loc = review_loc.locator('div.Review-comment-leftScoreText')
-                            if review_score_text_loc.count() > 0:
-                                review_score_text = review_score_text_loc.text_content()
-                            else:
-                                review_score_text = None
-                            trip_type = review_loc.locator('div[data-info-type="group-name"]').text_content()
-                            room_type = review_loc.locator('div[data-info-type="room-type"]').text_content()
-                            stay_date = review_loc.locator('div[data-info-type="stay-detail"]').text_content()
-                            review_title = review_loc.locator('h4[data-testid="review-title"]').text_content()
-                            review_comment = review_loc.locator('p[data-testid="review-comment"]').text_content()
-                            review_date_loc = review_loc.locator('div.Review-statusBar-left')
-                            if review_date_loc.count() > 0:
-                                review_date = review_date_loc.first.text_content()
-                            else:
-                                review_date = page.locator('div.Review-comment-bubble').locator(':scope > div').nth(1).text_content()
-
-                            dec_review = {
-                                'hotel_name': hotel_name,
-                                'review_id':review_id,
-                                'review_name_origin': review_name_origin,
-                                'review_score':review_score,
-                                'review_score_text':review_score_text,
-                                'trip_type':trip_type,
-                                'room_type':room_type,
-                                'stay_date':stay_date,
-                                'review_title':review_title,
-                                'review_comment':review_comment,
-                                'review_date':review_date
-                            }
+                            dec_review = parse_review(
+                                review_loc=review_loc,
+                                hotel_name=hotel_name,
+                                page=page)
                             review.append(dec_review)
-                            print(f"Berhasil menambahkan komentar ke {y} pada hal ke {i}")
+                        
+                            print(f"✅ Berhasil menambahkan komentar ke-{y} pada halaman ke-{i}")
 
-                        page.locator('button[aria-label="Next reviews page"]').first.click()
-                        time.sleep(5)
+                        if i < max_page:
+                            page.locator('button[aria-label="Next reviews page"]').first.click()
+                            time.sleep(5)
                 else:
                     print("hanya 1 halaman")
-
-
+                    count_review = page.locator('div.Review-comment')
+                    for y in range(count_review.count()):
+                        review_loc = count_review.nth(y)
+                        dec_review = parse_review(
+                            review_loc=review_loc,
+                            hotel_name=hotel_name,
+                            page=page)
+                        review.append(dec_review)
 
                 page.wait_for_timeout(5000)
 
