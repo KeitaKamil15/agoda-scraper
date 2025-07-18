@@ -2,7 +2,7 @@ import json
 
 from extract_hotel_detail import extract_hotel_detail
 
-with open('jsons/batam island_5star_hotels.json', 'r') as file:
+with open('jsons/batam island_4star_hotels.json', 'r') as file:
     hotels = json.load(file)
 
 with open('user_agents.json') as f:
@@ -32,7 +32,7 @@ if __name__ == "__main__":
         list_hotel.extend(hotel_details)
     
     # print(list_hotel)
-    output_json = "jsons/test.json"
+    output_json = "jsons/batam island_4star_hotels_other information.json"
 
     try:
         with open(output_json, 'w', encoding='utf-8') as f:

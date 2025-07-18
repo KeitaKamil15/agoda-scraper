@@ -1,4 +1,4 @@
-from utils import visit_hotel, check_room_availability, change_date_book, extract_amenities_facilities, click_all_show_more, extract_room_type, extract_helpful_fact
+from utils import visit_hotel, check_room_availability, change_date_book, extract_amenities_facilities, click_all_show_more, extract_room_type, extract_helpful_fact, extract_coord
 
 from playwright.sync_api import sync_playwright, TimeoutError
 
@@ -35,16 +35,27 @@ def extract_hotel_detail(USER_AGENTS: dict, link, max_retries=3):
                 # Click all Show More Deals
                 click_all_show_more(page)
 
-                # Extract all room & price
-                room_detials = extract_room_type(
-                    page=page, 
-                    hotel_name=hotel_name,
-                    hotel_loc=hotel_loc,
-                    list_facilities=list_facilities,
-                    other_information = other_information
-                    )
+                latitude,longitude = extract_coord(page)
 
-                list_hotel.extend(room_detials)
+                # Extract all room & price
+                # room_detials = extract_room_type(
+                #     page=page, 
+                #     hotel_name=hotel_name,
+                #     hotel_loc=hotel_loc,
+                #     list_facilities=list_facilities,
+                #     other_information = other_information
+                #     )
+                
+                room_detials = {
+                    'hotel_name':hotel_name,
+                    'latitude' : latitude,
+                    'longitude': longitude
+                }
+                room_detials.update(other_information)
+
+
+                list_hotel.append(room_detials)
+                # list_hotel.extend(room_detials)
 
                 page.wait_for_timeout(5000)
 

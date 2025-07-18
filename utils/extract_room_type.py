@@ -1,5 +1,9 @@
+from .extract_coord import extract_coord
+
 def extract_room_type(page, hotel_name, hotel_loc, list_facilities, other_information):
     rooms = []
+
+    latitude,longitude = extract_coord(page)
 
     type_room = page.locator('div[data-selenium="MasterRoom"]')
     print("tipe room nya ada = ", type_room.count())
@@ -58,14 +62,16 @@ def extract_room_type(page, hotel_name, hotel_loc, list_facilities, other_inform
             room_data = {
             "hotel_name" : hotel_name,
             "address" : hotel_loc,
-            "room_type" : type_room_name,
-            "room size" : room_size,
-            "price" : price,
-            "Benefit" : benefit
+            # "room_type" : type_room_name,
+            # "room size" : room_size,
+            # "price" : price,
+            # "Benefit" : benefit
+            'latitude':latitude,
+            'longitude':longitude
             }
 
             # tambahkan list fasilitas 
-            room_data.update(list_facilities)
+            # room_data.update(list_facilities)
             room_data.update(other_information)
 
             # hasil scraping di array
