@@ -1,6 +1,6 @@
 from .extract_coord import extract_coord
 
-def extract_room_type(page, hotel_name, hotel_loc, list_facilities, other_information):
+def extract_room_type(page, hotel_name, hotel_loc, list_facilities, other_information, latitude,longitude):
     rooms = []
 
     latitude,longitude = extract_coord(page)
@@ -62,12 +62,12 @@ def extract_room_type(page, hotel_name, hotel_loc, list_facilities, other_inform
             room_data = {
             "hotel_name" : hotel_name,
             "address" : hotel_loc,
-            # "room_type" : type_room_name,
-            # "room size" : room_size,
-            # "price" : price,
-            # "Benefit" : benefit
             'latitude':latitude,
-            'longitude':longitude
+            'longitude':longitude,
+            "room_type" : type_room_name,
+            "room size" : room_size,
+            "price" : price,
+            "Benefit" : benefit
             }
 
             # tambahkan list fasilitas 

@@ -16,3 +16,5 @@ from utils.extract_room_type import extract_room_type
 from utils.extract_helpful_fact import extract_helpful_fact
 from utils.parse_review import parse_review
 from utils.extract_coord import extract_coord
+from utils.extract_room_price import extract_room_price
+from utils.generate_weekend_dates import generate_weekend_dates

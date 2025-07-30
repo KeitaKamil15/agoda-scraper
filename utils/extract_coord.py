@@ -2,7 +2,7 @@ import re
 
 
 def extract_coord(page):
-    
+
     maps_loc = page.locator('div.MapCompact')
     maps_loc.click()
 

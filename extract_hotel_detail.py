@@ -1,4 +1,4 @@
-from utils import visit_hotel, check_room_availability, change_date_book, extract_amenities_facilities, click_all_show_more, extract_room_type, extract_helpful_fact, extract_coord
+from utils import visit_hotel, check_room_availability, change_date_book, extract_amenities_facilities, click_all_show_more, extract_room_type, extract_helpful_fact, extract_coord, extract_room_price
 
 from playwright.sync_api import sync_playwright, TimeoutError
 
@@ -7,6 +7,17 @@ import traceback
 
 
 def extract_hotel_detail(USER_AGENTS: dict, link, max_retries=3):
+
+    """
+    Example output : 
+    [
+        {
+            key:value,
+            key:value,
+            key: ['list1','list2']
+        }
+    ]
+    """
 
     list_hotel= []
 
@@ -38,24 +49,20 @@ def extract_hotel_detail(USER_AGENTS: dict, link, max_retries=3):
                 latitude,longitude = extract_coord(page)
 
                 # Extract all room & price
-                # room_detials = extract_room_type(
-                #     page=page, 
-                #     hotel_name=hotel_name,
-                #     hotel_loc=hotel_loc,
-                #     list_facilities=list_facilities,
-                #     other_information = other_information
-                #     )
+                room_detials = extract_room_price(
+                    page=page, 
+                    hotel_name=hotel_name,
+                    hotel_loc=hotel_loc,
+                    list_facilities=list_facilities,
+                    other_information = other_information,
+                    latitude=latitude,
+                    longitude=longitude
+                    )
                 
-                room_detials = {
-                    'hotel_name':hotel_name,
-                    'latitude' : latitude,
-                    'longitude': longitude
-                }
-                room_detials.update(other_information)
+                # room_detials.update(other_information)
 
 
-                list_hotel.append(room_detials)
-                # list_hotel.extend(room_detials)
+                list_hotel.extend(room_detials)
 
                 page.wait_for_timeout(5000)
 
